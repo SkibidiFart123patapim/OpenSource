@@ -3,7 +3,7 @@ local UserInputService = game:GetService("UserInputService")
 local localPlayer = Players.LocalPlayer
 local playerGui = localPlayer:WaitForChild("PlayerGui")
 
-local TOGGLE_KEY = Enum.KeyCode.T
+local TOGGLE_KEY = Enum.KeyCode.P
 
 
 local screenGui = Instance.new("ScreenGui")
