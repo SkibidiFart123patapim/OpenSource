@@ -12,7 +12,6 @@ if map then
                 end
             end
 
-            -- Delete everything except that exact model
             if keepModel then
                 for _, obj in ipairs(child:GetChildren()) do
                     if obj ~= keepModel then
